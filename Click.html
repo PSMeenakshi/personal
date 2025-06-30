@@ -1,0 +1,82 @@
+<style>
+
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4EBE6;
+  min-height: 100vh;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.project p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .project {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 40px 10px;
+  }
+
+  .project {
+    padding: 10px;
+  }
+
+  .project p {
+    font-size: 0.9rem;
+  }
+}
+</style>
+
+<div class="skills">
+              <div class="project">
+    <a href="./projects/4.3 HTML Porfolio Project/">HTML Portfolio Project</a>
+    <p>A simple portfolio I built using just HTML. It has a short intro about me and links to my other projects. One of my first steps into web development!</p>
+  </div>
+  <div class="project">
+    <a href="./projects/Resume/">Resume using HTML and Basic CSS</a>
+    <p>A clean resume layout using only HTML and basic CSS. Great for showcasing my skills as a beginner!</p>
+  </div>
+   <div class="project">
+    <a href="./projects/Taramaevents/">Website using HTML and Basic CSS</a>
+    <p>Tarama Events is a basic event page built with HTML and CSS. It features details about small private events, with a clean layout and easy-to-read sections. This project helped me practice structuring content and applying consistent styling across a webpage.
+</p>
+  </div>
+   <div class="project">
+    <a href="./projects/11.2 Bootstrap Components/">Website1 using bootstrap components</a>
+    <p>This project explores Bootstrap components like navbars, cards, buttons, and more. It helped me understand how to build responsive layouts quickly using Bootstrap classes</p>
+  </div>
+   <div class="project">
+    <a href="./projects/11.3 TinDog Project/">Website2 using bootstrap components</a>
+    <p>The TinDog Project is a responsive landing page designed for a fictional dog dating app. This project helped me strengthen my understanding of responsive design principles and how to effectively use Bootstrap's grid system and utility classes to create clean, professional interfaces.</p>
+  </div>
+
+</div>
+</div>
+             
+             </div>
